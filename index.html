@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&family=Petrona:ital@0;1&family=Roboto+Condensed:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Kibysh project</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Kibysh project</div>
+      <nav id="nav" class="">
+        <ul>
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li><a href="#experience">Досвід</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icon">
+        <a href="javascript:void(0);" class="icon" onclick="navopen()">
+          <img src="/img/icons/nav-icon.png" alt="Меню"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <div class="about gray-bg" id="about">
+        <div class="align-center">
+          <img src="/img/portrait.png" alt="portrait" class="portrait" />
+          <div class="about-text">
+            <h1>Про мене</h1>
+            <p>
+              Виконую різні дизайни сайтів, логтипів. Рисунок, портрети,
+              живопис.
+            </p>
+            <a href="#portfolio">Портфоліо</a>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio" id="portfolio">
+        <h1>Портфоліо</h1>
+        <div class="container align-center">
+          
+          <a href="/img/gallery/art.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/art.jpg" alt="Міський пейзаж">
+              <figcaption>
+                <h2>"Міський пейзаж"</h2>
+                <div class="desc">(рисунок)</div>
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="/img/gallery/derevo.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/derevo.jpg" alt="Дерево">
+              <figcaption>
+                <h2>"Дерево"</h2>
+                <div class="desc">(живопис)</div>
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="/img/gallery/leleka.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/leleka.jpg" alt="Лелека">
+              <figcaption>
+                <h2>"Лелека"</h2>
+                <div class="desc">(розпис одягу)</div>
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="/img/gallery/naturmort.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/naturmort.jpg" alt="Натюрморт">
+              <figcaption>
+                <h2>"Натюрморт"</h2>
+                <div class="desc">(живопис)</div>
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="/img/gallery/portret.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/portret.jpg" alt="Портрет">
+              <figcaption>
+                <h2>"Портрет"</h2>
+                <div class="desc">(рисунок)</div>
+              </figcaption>
+            </figure>
+          </a>
+          
+          <a href="/img/gallery/skulpt.jpg" target="_blank">
+            <figure>
+              <img src="/img/gallery/preview/skulpt.jpg" alt="Апельсин">
+              <figcaption>
+                <h2>"Апельсин"</h2>
+                <div class="desc">(скульптура)</div>
+              </figcaption>
+            </figure>
+          </a>
+
+
+        </div>
+      </div>
+      <div class="experience gray-bg" id="experience">
+        <h1>Досвід</h1>
+        <div class="container align-center">
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/gimp.svg" alt="skill icon" />
+            </div>
+            <div class="skill-caption">
+              <div class="skill-name">GIMP</div>
+              <div class="skill-level">
+                <div class="range" style="width: 86%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/портрет.svg" alt="skill icon" />
+            </div>
+            <div class="skill-caption">
+              <div class="skill-name">Портрет</div>
+              <div class="skill-level">
+                <div class="range" style="width: 66%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/рисунок.svg" alt="skill icon" />
+            </div>
+            <div class="skill-caption">
+              <div class="skill-name">Рисунок</div>
+              <div class="skill-level">
+                <div class="range" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/живопис.svg" alt="skill icon" />
+            </div>
+            <div class="skill-caption">
+              <div class="skill-name">Живопис</div>
+              <div class="skill-level">
+                <div class="range" style="width: 54%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/inkscape-icon.svg" alt="skill icon" />
+            </div>
+            <div class="skill-caption">
+              <div class="skill-name">InkScape</div>
+              <div class="skill-level">
+                <div class="range" style="width: 71%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts" id="contacts">
+        <h1>Контакти</h1>
+        <div class="container align-center">
+
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/почта.svg" alt="skill icon" />
+            </div>
+          </div>
+           
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/фейсбук.svg" alt="skill icon" />
+            </div>
+          </div>
+          
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/вайбер.svg" alt="skill icon" />
+            </div>
+          </div>
+         
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/пінтерест.svg" alt="skill icon" />
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="icon-container">
+              <img src="/img/icons/телеграм.svg" alt="skill icon" />
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+     
+      <div class="align-center container">
+        <nav>
+          <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#portfolio">Портфоліо</a></li>
+            <li><a href="#experience">Досвід</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          © Kiбиш Єлизавета, 2024
+        </div>
+      </div>      
+
+    </footer>
+    <script>
+      function navopen() {
+        var x = document.getElementById("nav");
+        if (x.className === "") {
+          x.className += "show";
+        } else {
+          x.className = "";
+        }
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+    
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+    
+            // Store hash
+            var hash = this.hash;
+    
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+    
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+    
+  </body>
+</html>
